@@ -1,10 +1,25 @@
+:root {
+  --standard: #fff;
+  --dark: #221e22;
+  --dark-shadow: #a0adc7;
+  --dark-shadow-hover: #a0adc7c9;
+  --clear-shadow: #f3efef;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 93.75%;
+}
+
 body {
-  font: 16px "Helvetica Neue", Arial, sans-serif;
-  color: #121214;
+  position: relative;
+  background: var(--standard);
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+  width: #{'min(90vw, 900px)'};
 }
