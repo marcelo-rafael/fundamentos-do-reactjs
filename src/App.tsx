@@ -1,10 +1,21 @@
-import { RepositoryList } from './components/RepositoryList'
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import './styles/global.scss'
+
+import { Dashboard } from "pages/Dashboard";
+import { Repository } from "pages/Repository";
+
+import GlobalStyles from "styles/global";
 
 export function App() {
-
   return (
-      <RepositoryList />
-  )
+    <>
+      <BrowserRouter>
+        <Switch>
+          <Route exact path="/" component={Dashboard} />
+          <Route path="/Repository" component={Repository} />
+        </Switch>
+      </BrowserRouter>
+      <GlobalStyles />
+    </>
+  );
 }
