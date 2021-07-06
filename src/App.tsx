@@ -12,7 +12,7 @@ export function App() {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Dashboard} />
-          <Route path="/Repository" component={Repository} />
+          <Route path="/repositories/:repository+" component={Repository} />
         </Switch>
       </BrowserRouter>
       <GlobalStyles />
