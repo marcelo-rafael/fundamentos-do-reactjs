@@ -10,22 +10,25 @@ const GlobalStyles = createGlobalStyle`
   --clear-shadow: #f3efef;
 }
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  html {
-  font-size: 93.75%;
+html {
+font-size: 93.75%;
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+
+  max-width: 700px;
+
   position: relative;
   background: var(--standard);
   font-family: 'Raleway', sans-serif;
-  margin: auto;
-  width: #{'min(90vw, 900px)'};
+  margin:  0 auto;
 }
  `
 
