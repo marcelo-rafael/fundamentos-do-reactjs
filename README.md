@@ -32,7 +32,7 @@
 <h1 align="center">
 Github Explorer - Ignite - Trilha React.js
 </h1>
-<p align="center">Deployed <a href="https://marcelo-rafael.github.io/#/">here</a>.</p>
+<p align="center">Deployed <a href="https://ignite-reactjs-github-explorer.vercel.app/">here</a>.</p>
 
 ---
 
@@ -134,6 +134,18 @@ $ git clone https://github.com/marcelo-rafael/ignite-reacts-github-explorer
 $ cd oignite-reacts-github-explorer
 
 ```
+
+### Running the Application
+
+```bash
+# install dependencies
+$ yarn or npm install
+
+# Run Application in Development
+$ yarn dev or npm run start
+
+# The application will open at port: 3000 - access http://localhost:3000
+
 
 ---
 
