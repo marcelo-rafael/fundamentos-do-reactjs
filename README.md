@@ -145,7 +145,7 @@ $ yarn or npm install
 $ yarn dev or npm run start
 
 # The application will open at port: 3000 - access http://localhost:3000
-
+```
 
 ---
 
